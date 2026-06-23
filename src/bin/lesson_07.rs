@@ -24,7 +24,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     let window = video_subsystem
         .window(
-            "SDL Tutorial: Rotation & Flipping",
+            "SDL Tutorial: Chroma Key",
             SCREEN_WIDTH as u32,
             SCREEN_HEIGHT as u32,
         )
