@@ -24,7 +24,8 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let texture_creator = canvas.texture_creator();
 
     // let bg_texture = texture_creator.load_texture("src/img/background.png")?;
-    let font = ttf_context.load_font("lazy.ttf", 28.0)?;
+    // let font = ttf_context.load_font("src/font/lazy.ttf", 28.0)?;
+    let font = ttf_context.load_font("src/font/momo.ttf", 28.0)?;
 
     let text_surface = font
         .render("The quick brown fox jumps over the lazy dog")
